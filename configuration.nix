@@ -25,7 +25,7 @@
 
   system.autoUpgrade = {
     enable = true;
-    flake = "github:zebreus/nixos-anywhere-config";
+    flake = "github:zebreus/nixos-anywhere-config#default";
     flags = [
       "--impure"
       "--update-input"
