@@ -5,7 +5,7 @@
 
   outputs = { nixpkgs, disko, ... }:
     {
-      nixosConfigurations.hetzner-matrix = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.default = nixpkgs.lib.nixosSystem {
         system = "aarch64-linux";
         modules = [
           disko.nixosModules.disko
